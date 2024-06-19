@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/calculadora-background.gif"); 
+    background-image: url('images/triangles-background.png'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -9,6 +9,10 @@ body{
     text-align: center;
     align-items: center;
     flex-direction: column;
+}
+
+header{
+    margin-top: 10%;
 }
 
 h1{
@@ -21,6 +25,14 @@ input{
     height: 6vh;
     box-sizing: border-box;
     border-radius: 10px;
+}
+
+select{
+    width: 10%;
+    height: 6vh;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 4vh;
 }
 
 #form{
@@ -43,6 +55,10 @@ button:hover{
 }
 
 h3{
+    font-family: sans-serif;
+}
+
+p{
     font-family: sans-serif;
 }
 
